@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1544915124 source:d:\codes\cplusplus\10660742-project\main.cpp
+	<iostream>
+	<vector>
+	<stdlib.h>
+	<string>
+	<sstream>
+	<fstream>
+
+1544917231 source:d:\codes\cplusplus\p_10660742\main.cpp
+	<iostream>
+	<vector>
+	<stdlib.h>
+	<string>
+	<sstream>
+	<fstream>
+
