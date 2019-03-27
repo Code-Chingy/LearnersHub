@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?package com.techupstudio.Resources.Layouts?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="center" prefHeight="300" prefWidth="500" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.techupstudio.Controllers.LoginController">
+
+   <Label text="Sign In Here" />
+
+   <TextField fx:id="username" promptText="Username" />
+   <PasswordField fx:id="password" promptText="Password" />
+
+   <CheckBox fx:id="rememberMe" mnemonicParsing="false" text="Remember Me" />
+   <Button minHeight="10" minWidth="10" onAction="#loginUser" text="Login" />
+   <Button mnemonicParsing="false" onAction="#gotoSignup"  text="SignUp" />
+
+</VBox>
